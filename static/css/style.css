@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    border: 5px solid;
+    padding: 18px;
+    background-color:powderblue;
+    font-size:250%;
+    }
+
+
+#googleMaps{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+   
