@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock title%}
+{% block content %}
+ 
+
+<!-- NAV BAR-->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="https://5000-dot-13062249-dot-devshell.appspot.com/home">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Rankings <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Financial Aid</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://5000-dot-13060368-dot-devshell.appspot.com/advancedSearch">Advanced Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://5000-dot-13062249-dot-devshell.appspot.com/recommend"> Recommend us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Form -->
+
+<form>
+  <!-- <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div> -->
+  <div class="form-group">
+    <label for="majors">Choose a Major</label>
+    <select class="form-control" id="majors">
+      <option></option>
+      <option>Business and Management</option>
+      <option>Nursing</option>
+      <option>Psychology</option>
+      <option>Biology</option>
+      <option>Engineering</option>
+      <option>Education</option>
+      <option>Communication</option>
+      <option>Finance and Accounting</option>
+      <option>Engineering</option>
+      <option>Criminal Justice</option>
+      <option>Anthropology and Sociology</option>
+      <option>Computer Science</option>
+      <option>English</option>
+      <option>Economics</option>
+      <option>Political Science</option>
+      <option>History</option>
+      <option>Art</option>
+      <option>Math</option>
+      
+    </select>
+  </div>
+<div class="form-group">
+    <label for="majors">Choose a Size</label>
+    <select class="form-control" id="majors">
+      <option></option>
+      <option>Small (fewer than 5,000)</option>
+      <option>Medium (5,000 - 15,000)</option>
+      <option>Large (more than 15,000)</option>
+      
+      
+    </select>
+  </div>
+
+{% endblock content%}

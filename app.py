@@ -11,6 +11,13 @@ import os
 
 # -- Initialization section --
 app = Flask(__name__)
+# -- Routes section --
+@app.route('/')
+@app.route('/home')
+def home():
+    return render_template('home.html')
+
+
 
 # -- Routes section --
 @app.route('/')
@@ -18,17 +25,22 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
-@app.route('/')
 @app.route('/recommend')
 def recommend():
     return render_template('recommend.html')
 
-@app.route('/')
+
 @app.route('/rankings')
 def rankings():
     return render_template('rankings.html')
 
-@app.route('/')
+
 @app.route('/financialaid')
 def financialaid():
     return render_template('FinancialAid.html')
+
+@app.route('/advancedSearch')
+def advancedSearch():
+    return render_template('advancedSearch.html')
+
+
