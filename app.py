@@ -43,7 +43,7 @@ def advancedSearch():
         select_choices = form["majors"]
         select_size = form["sizes"]
         select_location = form["locations"]
-        forms{
+        forms={
             "m":select_choices,
             "s":select_size,
             "l":select_location
