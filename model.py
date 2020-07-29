@@ -9,7 +9,7 @@ data{
 locations{
     "Manhattan1": ["Borough of Manhattan Community College", "Guttman Community College", "Baruch College", "City College of New York", "Hunter College", "John Jay College of Criminal Justice", "Fashion Institute of Technology", "SUNY College of Optometry", "SUNY Empire State College", "ASA College", "Barnard College", "Berkeley College", "Bori", "Boricua College", "Columbia University"],
     "Manhattan2": ["Cooper Union", "DeVry University", "Helene Fuld College of Nursing", "The Juilliard School", "The King's College", "Laboratory Institute of Merchandising", "Mandl College of Allied Health", "Manhattan School of Music", "Marymount Manhattan College", "Mercy College", "Metropolitan College of New York", "The New School", "New York Institute of Technology"],
-    "Manhattan3": ["New York School of Interior Design", "New York University", "Nyack College", "Pace University", "Pacific College of Oriental Medicine", "Phillips Beth Israel School of Nursing", "School of Visual Arts", "Touro College", "Yeshiva University"],
+    "Manhattan3": ["New York School of Interior Design", "New York University", "Nyack College", "Pace University", "Pacific College of Oriental Medicine", "Phillips Beth Israel School of Nursing", "Rockefeller University", "School of Visual Arts", "Touro College", "Yeshiva University"],
     "Brooklyn": ["Hostos Community College", "Brooklyn College", "Long Island University - Brooklyn Campus", "Medgar Evers College", "New York City College of Technology", "ASA College", "New York University", "Pratt Institute", "St. Francis College", "St. Joseph's College"],
     "Queens": ["LaGuardia Community College", "Queensborough Community College", "Queens College", "York College", "Long Island Business Institute - Flushing", "Plaza College", "St. John's University", "Vaughn College of Aeronautics & Technology" ],
     "The Bronx": ["Bronx Community College", "Hostos Community College", "Lehman College", "SUNY Maritime College", "College of Mount Saint Vincent", "Fordham University", "Manhattan College", "Mercy College", "Monroe College"],
@@ -17,37 +17,37 @@ locations{
 }
 
 majors1{
-    "Business and Management": ["ASA College",],
-    "Nursing": ["ASA College"],
-    "Psychology": ["Barnard College",],
-    "Biology": [""],
-    "Engineering": [],
-    "Education": [],
-    "Communications": [],
-    "Finance and Accounting": [],
-    "Criminal Justice": ["ASA College", ],
-    "Anthropology and Sociology": [],
-    "Computer Science": ["ASA College"],
-    "English": [],
-    "Economics": [],
-    "Political Science": [],
-    "History": [],
-    "Art": [],
-    "Math": []
+    "Business and Management": ["Monroe College", "Metropolitan College of New York", "Long Island Business Institute - Flushing", "Laboratory Institute of Merchandising", "The King's College", "ASA College", "Barnard College", "Berkeley College", "Boricua College", "College of Mount Saint Vincent", "Columbia University", "DeVry University", "Fordham University", ],
+    "Business and Management1": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", ]
+    "Nursing": ["Phillips Beth Israel School of Nursing", "Pacific College of Oriental Medicine", "Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Monroe College", "Mandl College of Allied Health", "Helene Fuld College of Nursing", "ASA College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Psychology": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Barnard College", "College of Mount Saint Vincent", "Columbia University", "Fordham University", ],
+    "Biology": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Barnard College", "Berkeley College", "College of Mount Saint Vincent", "Columbia University", "Fordham University", ],
+    "Engineering": ["New York University", "New York Institute of Technology", "Columbia University", "Cooper Union", "Fordham University", ],
+    "Education": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Monroe College", "Barnard College", "Boricua College", "Boricua College", "College of Mount Saint Vincent", "Columbia University", "Fordham University", ],
+    "Communications": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Berkeley College", "College of Mount Saint Vincent", "Columbia University", "DeVry University", "Fordham University", ],
+    "Finance and Accounting": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Long Island Business Institute - Flushing", "The King's College", "Fordham University", "Berkeley College", "College of Mount Saint Vincent", "Columbia University", "DeVry University", ],
+    "Criminal Justice": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "Monroe College", "ASA College", "Berkeley College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Anthropology and Sociology": ["Pace University", "New York University", "New York Institute of Technology", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Computer Science": ["Pace University", "New York University", "New York Institute of Technology", "Monroe College", "Fordham University", "ASA College", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "English": ["Pace University", "Nyack College", "New York University", "New York Institute of Technology", "The King's College", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Economics": ["Pace University", "New York University", "The King's College", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Political Science": ["Pace University", "New York University", "New York Institute of Technology", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "History": ["Pace University", "New York University", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", ],
+    "Art": ["Pace University", "New York University", "The King's College", "The Juilliard School", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", "Cooper Union", ],
+    "Math": ["Pace University", "New York University", "New York Institute of Technology", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", "Cooper Union", ]
 
-
-}
 
 
 size{
     "fewer than 5,000a": ["Guttman Community College","York College","Fashion Institute of Technology","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Cooper Union","Helene Fuld College of Nursing","Icahn School of Medicine at Mount Sinai","The Juilliard School","The King's College"],
     "fewer than 5,000b": ["Laboratory Institute of Merchandising","Long Island Business Institute","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Metropolitan College of New York","New York School of Interior Design","Nyack College","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College"],
-    "fewer than 5,000c": ["Pratt Institute","School of Visual Arts","St. Francis College","St. Joseph's College","Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"],
+    "fewer than 5,000c": ["Pratt Institute","Rockefeller university","School of Visual Arts","St. Francis College","St. Joseph's College", "Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"],
     "5,000 - 15,000": ["Bronx Community College","Hostos Community College","College of Staten Island","Lehman College","Long Island University - Brooklyn Campus","Medgar Evers College","Empire State College","Empire State College","Columbia University","Hofstra University","Mercy College","Monroe College","The New School","New York Institute of Technology","Pace University","Touro College"],
     "more than 15,000a": ["Borough of Manhattan Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Baruch College","Brooklyn College","City College of New York","Hunter College","John Jay College of Criminal Justice","New York City College of Technology","Queens College","DeVry University","Fordham University"],
     "more than 15,000b": ["Long Island University","New York University","St. John's University"]
 }
 
+  
 majors{
     "Business and Management": ["Borough of Manhattan Community College","Bronx Community College","Guttman Community College","Hostos Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Baruch College","Brooklyn College","City College of New York","College of Staten Island","Lehman College","Medgar Evers College","Queens College"],
     "Business and Managment2": ["York College","Yeshiva University","Wagner College","Vaughn College of Aeronautics & Technology","Empire State College","SUNY Maritime College","Touro College","St. Joseph's College","St. John's University","St. Francis College","Plaza College"],
@@ -79,9 +79,12 @@ majors{
 
 
 }
+<<<<<<< HEAD
 
 Type of college{
     "Four Year": ["Baruch College","Brooklyn College","City College of New York","College of Staten Island","Hunter College","John Jay College of Criminal Justice","Lehman College","Long Island University - Brooklyn Campus","Medgar Evers College","New York City College of Technology","Queens College","York College","Fashion Institute of Technology","SUNY Empire State College","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Columbia University","Cooper Union","DeVry University","Fordham University","Hofstra University","The Juilliard School","The King's College","Laboratory Institute of Merchandising","Long Island University","Long Island Business Institute - Flushing","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Mercy College","Metropolitan College of New York","Monroe College","The New Schoo","New York Institute of Technology","New York School of Interior Design"],
     "Four Year": ["New York University","Nyack College","Pace University","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College","Rockefeller University","School of Visual Arts","St. Francis College","St. John's University","St. Joseph's College","Touro College","Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"]
     "Two Year": ["Borough of Manhattan Community College","Bronx Community College","Guttman Community College","Hostos Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Pratt Institute"],
 }
+=======
+>>>>>>> bfa786c26c75eb6c838f4956ae884702f78d8751
