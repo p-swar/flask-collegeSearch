@@ -17,8 +17,6 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-
-
 # -- Routes section --
 @app.route('/')
 @app.route('/home')
@@ -29,11 +27,9 @@ def index():
 def recommend():
     return render_template('recommend.html')
 
-
 @app.route('/rankings')
 def rankings():
     return render_template('rankings.html')
-
 
 @app.route('/financialaid')
 def financialaid():
@@ -53,10 +49,12 @@ def advancedSearch():
             "s":select_size,
             "l":select_location
         }
+
         print(select_choices)
         print(select_size)
         print(select_location)
     return render_template('advancedSearch.html', forms = forms)
+
 
 
 @app.route('/compare')

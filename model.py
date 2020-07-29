@@ -76,3 +76,12 @@ size{
     "more than 15,000": ["Borough of Manhattan Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Baruch College","Brooklyn College","City College of New York","Hunter College","John Jay College of Criminal Justice","New York City College of Technology","Queens College","DeVry University","Fordham University"],
     "more than 15,000b": ["Long Island University","New York University","St. John's University"],
 }
+<<<<<<< HEAD
+
+Type of college{
+    "Four Year": ["Baruch College","Brooklyn College","City College of New York","College of Staten Island","Hunter College","John Jay College of Criminal Justice","Lehman College","Long Island University - Brooklyn Campus","Medgar Evers College","New York City College of Technology","Queens College","York College","Fashion Institute of Technology","SUNY Empire State College","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Columbia University","Cooper Union","DeVry University","Fordham University","Hofstra University","The Juilliard School","The King's College","Laboratory Institute of Merchandising","Long Island University","Long Island Business Institute - Flushing","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Mercy College","Metropolitan College of New York","Monroe College","The New Schoo","New York Institute of Technology","New York School of Interior Design"],
+    "Four Year": ["New York University","Nyack College","Pace University","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College","Rockefeller University","School of Visual Arts","St. Francis College","St. John's University","St. Joseph's College","Touro College","Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"]
+    "Two Year": ["Borough of Manhattan Community College","Bronx Community College","Guttman Community College","Hostos Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Pratt Institute"],
+}
+=======
+>>>>>>> bfa786c26c75eb6c838f4956ae884702f78d8751
