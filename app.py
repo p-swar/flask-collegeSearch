@@ -34,6 +34,7 @@ def rankings():
 @app.route('/financialaid')
 def financialaid():
     return render_template('FinancialAid.html')
+
 @app.route('/advancedSearch', methods = ["GET", "POST"])
 def advancedSearch():
     if request.method == "GET":
@@ -54,9 +55,11 @@ def advancedSearch():
         print(select_location)
     return render_template('advancedSearch.html', forms = forms)
 
-# @app.route('/compare')
-# def compare():
-#     if forms["m"] == majors['Business and Management', "Business and Management1"]:
-#         print()
 
-#     return render_template('advancedSearch.html')
+
+@app.route('/compare')
+def compare():
+    if forms["m"] == majors['Business and Management', "Business and Management1"]:
+        print()
+
+    return render_template('advancedSearch.html')
