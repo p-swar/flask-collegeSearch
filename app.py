@@ -58,7 +58,10 @@ def advancedSearch():
             "m":select_choices,
             "s":select_size,
             "l":select_location
+            #"colleges": model.compare(select_choices,select_size,select_location)
         }
+        colleges=model.compare(forms)
+
         # select_majors_list.append("m")
         # select_size_list.append("s")
         # select_location_list.append("l")
@@ -67,8 +70,8 @@ def advancedSearch():
         # print(select_size)
         # print(select_location)
         # print(select_majors_list)
-        model.compare(forms)
-        return render_template('Compare.html', forms=forms)
+        #model.compare(forms)
+        return render_template('Compare.html', forms=forms, colleges=colleges)
     
 
 
