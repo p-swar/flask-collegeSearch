@@ -67,16 +67,8 @@ majors{
 }
 
 
-
-
-
-
-
-
-
-
-
 size{
+
     "fewer than 5,000": ["Guttman Community College","York College","Fashion Institute of Technology","SUNY College of Optometry","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Cooper Union","Helene Fuld College of Nursing","Icahn School of Medicine at Mount Sinai","The Juilliard School","The King's College"],
     "fewer than 5,000b": ["Laboratory Institute of Merchandising","Long Island Business Institute","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Metropolitan College of New York","New York School of Interior Design","Nyack College","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College"],
     "fewer than 5,000c": ["Pratt Institute","Rockefeller university","School of Visual Arts","St. Francis College","St. Joseph's College", "Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"],
@@ -84,7 +76,3 @@ size{
     "more than 15,000": ["Borough of Manhattan Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Baruch College","Brooklyn College","City College of New York","Hunter College","John Jay College of Criminal Justice","New York City College of Technology","Queens College","DeVry University","Fordham University"],
     "more than 15,000b": ["Long Island University","New York University","St. John's University"],
 }
-
-
-
-
