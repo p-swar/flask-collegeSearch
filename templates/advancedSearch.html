@@ -2,7 +2,26 @@
 {% block title %}Index{% endblock title%}
 {% block content %}
  
-​
+​<style>
+
+.form{
+  margin: 10px;
+  border: 10px powderblue solid;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: powderblue;
+  color: #1b1c1a;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+
+
+</style>
 <!-- NAV BAR-->
 ​
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,12 +47,21 @@
   </div>
 </nav>
 ​
+<h1>Let us help you choose the perfect college for yourself.</h1>
+
+
+
+
+
+
+
 <!-- Form -->
 
   <!-- <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div> -->
+  <div class = "form">
   <form action="" method = "POST">
   <div class="form-group">
     <label for="majors">Choose a Major</label>
@@ -85,7 +113,9 @@
       
     </select>
   </div>
+  <div class=subButton>
    <input type="submit" value="Submit">
+    </div>
   </form>
-
+</div>
 {% endblock content%}
