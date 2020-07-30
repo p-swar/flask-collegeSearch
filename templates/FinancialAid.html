@@ -57,7 +57,7 @@
     <h2>The Average Cost Of Tuition Is Continuously Rising!</h2>
     <img src="https://www.gannett-cdn.com/-mm-/1247c10b0088e2dd70856014fb4f0f5e7c45e2f2/c=0-0-629-354/local/-/media/2018/08/15/USATODAY/usatsports/usatcollege-CollegeUSAT-660582-233868a4.png?width=629&height=354&fit=crop&format=pjpg&auto=webp" class="center">
     <h2>Rest Assured, A Variety Of Financial Aid Sources Are Available To Help You Pay for college </h2>
-<!--Header & image Style-->
+<!--Header,image Style, and grid-->
 <style>
  h2 {
     text-align: center;
@@ -73,40 +73,40 @@
   margin-right: auto;
   width: 65%;
 }
-h3 {
+p3 {
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 500px 920px;
+}
+
+.wrapper > div {
+  padding: 10em;
+  color: #3264a8;
 }
 </style>
-<!--Buttons-->
-  <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">List of 2020 Scholarships</a>
-  <a href="https://www.hesc.ny.gov/" class="btn btn-primary btn-lg" role="button" aria-disabled="true">NY State Grants</a>
-  <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Federal Grants</a>
+<!--Button Group-->
+  <a href="https://collegesofdistinction.com/advice/the-mega-list-of-scholarships-you-should-apply-for-class-of-2019-2020/" class="btn btn-primary btn-lg" role="button" aria-disabled="true">List of 2020 Scholarships</a>
+  <a href="https://www.hesc.ny.gov/" class="btn btn-primary btn-lg" role="button" aria-disabled="true">NY TAP Grant</a>
+  <a href="https://studentaid.gov/h/apply-for-aid/fafsa" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Federal Grants</a>
   <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Work-Study</a>
   <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Grants</a>
   <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Grants</a>
-<!--Container-->
-<div class="container">
-  <div class="row">
-    <div class="col">
-        <img src="https://www.fillmorecsd.org/cms/lib/NY19000841/Centricity/Domain/8/scholarshipimage.jpg" width=80%, height=500%>
-    </div>
-    <div class="col">
-      <h3>Scholarships are a payment made to support a student's education that you do not have to pay back</h3>
-    </div>
-  </div>
+
+<div class="wrapper">
+  <div><img src="https://www.fillmorecsd.org/cms/lib/NY19000841/Centricity/Domain/8/scholarshipimage.jpg"></div>
+  <div><p3>A Scholarship is a payment made to support a student's education that you do not have to pay back</p3></div>
+  <div><img src="https://cms.hostos.cuny.edu/Hostos/media/SDEM/ARC/hesc.png"></div>
+  <div><p3>The New York State Tuition Assistance Program (TAP) helps eligible New York residents pay tuition at approved schools in NYC. </p3></div>
+  <div>Schoalrship image</div>
+  <div>schoalship text</div>
+  <div>grant iamge</div>
+  <div>grant text</div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col">
-        <img src="https://www.fillmorecsd.org/cms/lib/NY19000841/Centricity/Domain/8/scholarshipimage.jpg" width=80%, height=500%>
-    </div>
-    <div class="col">
-      <h3>Scholarships are a grants or payment </h3>
-    </div>
-  </div>
-</div>
-<!--Button Groups-->
+
+
 
 
 {% endblock content%}
