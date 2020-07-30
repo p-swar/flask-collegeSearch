@@ -38,7 +38,7 @@ majors1={
     "Math": ["Pace University", "New York University", "New York Institute of Technology", "Fordham University", "Barnard College", "College of Mount Saint Vincent", "Columbia University", "Cooper Union"]
 }
 
-size={
+sizes={
     "fewer than 5,000a": ["Guttman Community College","York College","Fashion Institute of Technology","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Cooper Union","Helene Fuld College of Nursing","Icahn School of Medicine at Mount Sinai","The Juilliard School","The King's College"],
     "fewer than 5,000b": ["Laboratory Institute of Merchandising","Long Island Business Institute","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Metropolitan College of New York","New York School of Interior Design","Nyack College","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College"],
     "fewer than 5,000c": ["Pratt Institute","Rockefeller university","School of Visual Arts","St. Francis College","St. Joseph's College", "Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"],
@@ -78,16 +78,6 @@ majors={
     "Math2": ["Touro College","St. Joseph's College","St. John's University","St. Francis College"]
 }
 
-
-size={
-
-    "fewer than 5,000": ["Guttman Community College","York College","Fashion Institute of Technology","SUNY College of Optometry","SUNY Maritime College","ASA College","Barnard College","Berkeley College","Boricua College","College of Mount Saint Vincent","Cooper Union","Helene Fuld College of Nursing","Icahn School of Medicine at Mount Sinai","The Juilliard School","The King's College"],
-    "fewer than 5,000b": ["Laboratory Institute of Merchandising","Long Island Business Institute","Mandl College of Allied Health","Manhattan College","Manhattan School of Music","Marymount Manhattan College","Metropolitan College of New York","New York School of Interior Design","Nyack College","Pacific College of Oriental Medicine","Phillips Beth Israel School of Nursing","Plaza College"],
-    "fewer than 5,000c": ["Pratt Institute","Rockefeller university","School of Visual Arts","St. Francis College","St. Joseph's College", "Vaughn College of Aeronautics & Technology","Wagner College","Yeshiva University"],
-    "5,000 - 15,000": ["Bronx Community College","Hostos Community College","College of Staten Island","Lehman College","Long Island University - Brooklyn Campus","Medgar Evers College","Empire State College","Empire State College","Columbia University","Hofstra University","Mercy College","Monroe College","The New School","New York Institute of Technology","Pace University","Touro College"],
-    "more than 15,000": ["Borough of Manhattan Community College","Kingsborough Community College","LaGuardia Community College","Queensborough Community College","Baruch College","Brooklyn College","City College of New York","Hunter College","John Jay College of Criminal Justice","New York City College of Technology","Queens College","DeVry University","Fordham University"],
-    "more than 15,000b": ["Long Island University","New York University","St. John's University"],
-}
 
 Type_of_college={
     "Four Year": ["Baruch College","Brooklyn College","City College of New York","College of Staten Island","Hunter College","John Jay College of Criminal Justice","Lehman College","Long Island University - Brooklyn Campus","Medgar Evers College","New York City College of Technology","Queens College","York College","Fashion Institute of Technology","SUNY Empire State College"],
@@ -151,5 +141,89 @@ def compare(user_dict):
         elif (major.find("Math1") != -1) or (major.find("Math2") != -1 ):
             for college in majors[major]:
                 pos_colleges.append(college)
-    print(pos_colleges)
+        break
+        #Second Dictionary for Majors1
+    for major in majors1:
+        if (major.find("Business and Management") != -1) or (major.find("Business and Managment2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Nursing") != -1) or (major.find("Nursing2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Psychology1") != -1) or (major.find("Pyschology2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Biology1") != -1) or (major.find("Biology2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Engineering1") != -1):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Education1") != -1) or (major.find("Education2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Communications1") != -1):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Finance and Accounting1") != -1) or (major.find("Finance and Accounting2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Criminal Justice1") != -1):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Anthropology and Sociology1") != -1):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Computer Science1") != -1) or (major.find("Computer Science2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("English1") != -1) or (major.find("English2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Economics1") != -1) or (major.find("Economics2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Political Science1") != -1):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Art1") != -1) or (major.find("Art2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        elif (major.find("Math1") != -1) or (major.find("Math2") != -1 ):
+            for college in majors1[major]:
+                pos_colleges.append(college)
+        break
+    #Sizes dictionary
+    for size in sizes:
+        if ((size.find("fewer than 5,000a") != -1) or (size.find("fewer than 5,000b") != -1 ) or (size.find("fewer than 5,000c") != -1 )):
+            for college in sizes[size]:
+                pos_colleges.append(college)
+        elif ((size.find("5,000 - 15,000") != -1)):
+            for college in sizes[size]:
+                pos_colleges.append(college)
+        elif ((size.find("more than 15,000a") != -1) or (size.find("more than 15,000b") != -1 )):
+            for college in sizes[size]:
+                pos_colleges.append(college)
+        break
+    #Locations Dictionary
+    for location in locations:
+        if ((location.find("Manhattan1") != -1) or (location.find("Manhattan2") != -1 ) or (location.find("Manhattan3") != -1 )):
+            for college in locations[location]:
+                pos_colleges.append(college)
+        elif ((location.find("Brooklyn") != -1)):
+            for college in locations[location]:
+                pos_colleges.append(college)
+        elif ((location.find("Queens") != -1)):
+            for college in locations[location]:
+                pos_colleges.append(college)
+        elif ((location.find("The Bronx") != -1)):
+            for college in locations[location]:
+                pos_colleges.append(college)
+        elif ((location.find("Staten Island") != -1)):
+            for college in locations[location]:
+                pos_colleges.append(college)
+        break
+    #for colleges in pos_colleges:
+       # if (major.find):
+
     return pos_colleges
