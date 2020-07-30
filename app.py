@@ -49,6 +49,11 @@ def advancedSearch():
         select_choices = form["majors"]
         select_size = form["sizes"]
         select_location = form["locations"]
+
+        
+       
+# def choose():
+#     if 
         forms={
             "m":select_choices,
             "s":select_size,
