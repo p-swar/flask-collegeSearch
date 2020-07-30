@@ -48,20 +48,16 @@ def advancedSearch():
         select_choices = form["majors"]
         select_size = form["sizes"]
         select_location = form["locations"]
-        forms{
-            "m":select_choices,
-            "s":select_size,
-            "l":select_location
+        
+        forms={
+            "m": select_choices,
+            "s": select_size,
+            "l": select_location
         }
         print(select_choices)
         print(select_size)
         print(select_location)
-    return render_template('advancedSearch.html', forms = forms)
+    return render_template('advancedSearch.html', forms=forms)
 
-
-@app.route('/compare')
-def compare():
-    if forms["m"] == majors['Business and Management', "Business and Management1"]:
-        print()
-
-    return render_template('advancedSearch.html')
+# def choose():
+#     if 
