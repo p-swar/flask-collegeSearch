@@ -6,6 +6,7 @@ from flask import request
 from flask import url_for
 from flask import redirect
 from flask import request
+import model
 from flask_pymongo import PyMongo
 import os
 
@@ -35,10 +36,14 @@ def rankings():
 def financialaid():
     return render_template('FinancialAid.html')
 
+select_majors_list=[]
+select_size_list=[]
+select_location_list=[]
+
 @app.route('/advancedSearch', methods = ["GET", "POST"])
 def advancedSearch():
     if request.method == "GET":
-        print("")
+        return render_template('advancedSearch.html')
     else:
         form = request.form
         select_choices = form["majors"]
@@ -49,17 +54,22 @@ def advancedSearch():
             "s":select_size,
             "l":select_location
         }
+        # select_majors_list.append("m")
+        # select_size_list.append("s")
+        # select_location_list.append("l")
+        # print("forms: "+str(forms))
+        # print(select_choices)
+        # print(select_size)
+        # print(select_location)
+        # print(select_majors_list)
+        model.compare(forms)
+        return render_template('Compare.html', forms=forms)
+    
 
-        print(select_choices)
-        print(select_size)
-        print(select_location)
-    return render_template('advancedSearch.html', forms = forms)
 
+# @app.route('/compare')
+# def compare():
+#     if forms["m"] == majors['Business and Management', "Business and Management1"]:
+#         print()
 
-
-@app.route('/compare')
-def compare():
-    if forms["m"] == majors['Business and Management', "Business and Management1"]:
-        print()
-
-    return render_template('advancedSearch.html')
+#     return render_template('advancedSearch.html')
