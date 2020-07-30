@@ -101,4 +101,55 @@ def compare(user_dict):
     user_m=user_dict["m"]
     user_l=user_dict["l"]
     user_s=user_dict["s"]
-    print("compare")
+    pos_colleges=[]
+    for major in majors:
+        if (major.find("Business and Management") != -1) or (major.find("Business and Managment2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Nursing") != -1) or (major.find("Nursing2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Psychology1") != -1) or (major.find("Pyschology2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Biology1") != -1) or (major.find("Biology2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Engineering1") != -1):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Education1") != -1) or (major.find("Education2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Communications1") != -1):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Finance and Accounting1") != -1) or (major.find("Finance and Accounting2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Criminal Justice1") != -1):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Anthropology and Sociology1") != -1):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Computer Science1") != -1) or (major.find("Computer Science2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("English1") != -1) or (major.find("English2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Economics1") != -1) or (major.find("Economics2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Political Science1") != -1):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Art1") != -1) or (major.find("Art2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+        elif (major.find("Math1") != -1) or (major.find("Math2") != -1 ):
+            for college in majors[major]:
+                pos_colleges.append(college)
+    print(pos_colleges)
+    return pos_colleges
